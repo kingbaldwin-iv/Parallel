@@ -18,8 +18,8 @@ public class X {
 	}
 	public void sync(int id, List<Object> list){
 		if(id<list.size()){
-			synchronized(list.get(id++)){
-				sync(id, list);
+			synchronized(list.get(id)){
+				sync(id++, list);
 			}
 		}else{
 			for(Object a : list) {
