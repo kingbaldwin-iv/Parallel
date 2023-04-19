@@ -1,4 +1,4 @@
-// it is nice but please don't use it for the sake of run time
+// it is nice but please don't use it for the sake of efficiency
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
